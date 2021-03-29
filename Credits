@@ -33,9 +33,6 @@ ScrollingFrame.BorderSizePixel = 0
 ScrollingFrame.Position = UDim2.new(0.362615526, 0, 0.285012275, 0)
 ScrollingFrame.Size = UDim2.new(0, 415, 0, 227)
 ScrollingFrame.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
-ScrollingFrame.Parent.Active = true
-ScrollingFrame.Parent.Draggable = true
-ScrollingFrame.Parent.Selectable = true
 
 Close.Name = "Close"
 Close.Parent = ScrollingFrame
