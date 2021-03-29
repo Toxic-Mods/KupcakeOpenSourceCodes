@@ -1,1 +1,229 @@
+-- Gui to Lua
+-- Version: 3.2
 
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local Close = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+
+ScrollingFrame.Parent = ScreenGui
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.362615526, 0, 0.285012275, 0)
+ScrollingFrame.Size = UDim2.new(0, 415, 0, 227)
+ScrollingFrame.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
+ScrollingFrame.Parent.Active = true
+ScrollingFrame.Parent.Draggable = true
+ScrollingFrame.Parent.Selectable = true
+
+Close.Name = "Close"
+Close.Parent = ScrollingFrame
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.918072283, 0, 0, 0)
+Close.Size = UDim2.new(0, 34, 0, 29)
+Close.Font = Enum.Font.Cartoon
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 0, 0)
+Close.TextSize = 29.000
+
+TextLabel.Parent = ScrollingFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.260240972, 0, 0.0546683036, 0)
+TextLabel.Size = UDim2.new(0, 184, 0, 18)
+TextLabel.Font = Enum.Font.Cartoon
+TextLabel.Text = "Toxic Mods"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 25.000
+TextLabel.TextStrokeTransparency = 0.000
+
+TextLabel_2.Parent = ScrollingFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.260240972, 0, 0.0724815726, 0)
+TextLabel_2.Size = UDim2.new(0, 184, 0, 18)
+TextLabel_2.Font = Enum.Font.Cartoon
+TextLabel_2.Text = "Hub Owner"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 16.000
+TextLabel_2.TextStrokeTransparency = 0.000
+
+TextLabel_3.Parent = ScrollingFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.26987952, 0, -8.65906477e-05, 0)
+TextLabel_3.Size = UDim2.new(0, 192, 0, 34)
+TextLabel_3.Font = Enum.Font.Cartoon
+TextLabel_3.Text = "Credits"
+TextLabel_3.TextColor3 = Color3.fromRGB(55, 255, 0)
+TextLabel_3.TextSize = 25.000
+TextLabel_3.TextStrokeTransparency = 0.000
+
+TextLabel_4.Parent = ScrollingFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.260240972, 0, 0.130835384, 0)
+TextLabel_4.Size = UDim2.new(0, 184, 0, 18)
+TextLabel_4.Font = Enum.Font.Cartoon
+TextLabel_4.Text = "Chaos"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 25.000
+TextLabel_4.TextStrokeTransparency = 0.000
+
+TextLabel_5.Parent = ScrollingFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.260240972, 0, 0.156019658, 0)
+TextLabel_5.Size = UDim2.new(0, 184, 0, 18)
+TextLabel_5.Font = Enum.Font.Cartoon
+TextLabel_5.Text = "Amazing Friend, Emotional Support, and Tester"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 16.000
+TextLabel_5.TextStrokeTransparency = 0.000
+
+TextLabel_6.Parent = ScrollingFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.260240972, 0, 0.227272734, 0)
+TextLabel_6.Size = UDim2.new(0, 184, 0, 18)
+TextLabel_6.Font = Enum.Font.Cartoon
+TextLabel_6.Text = "Matt_Lawz"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 25.000
+TextLabel_6.TextStrokeTransparency = 0.000
+
+TextLabel_7.Parent = ScrollingFrame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.260240972, 0, 0.252457023, 0)
+TextLabel_7.Size = UDim2.new(0, 184, 0, 18)
+TextLabel_7.Font = Enum.Font.Cartoon
+TextLabel_7.Text = "Amazing Friend, helping me expand my knowledge"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 16.000
+TextLabel_7.TextStrokeTransparency = 0.000
+
+TextLabel_8.Parent = ScrollingFrame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.260240972, 0, 0.319410324, 0)
+TextLabel_8.Size = UDim2.new(0, 184, 0, 18)
+TextLabel_8.Font = Enum.Font.Cartoon
+TextLabel_8.Text = "DekuDimz"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 25.000
+TextLabel_8.TextStrokeTransparency = 0.000
+
+TextLabel_9.Parent = ScrollingFrame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.260240972, 0, 0.347665846, 0)
+TextLabel_9.Size = UDim2.new(0, 184, 0, 18)
+TextLabel_9.Font = Enum.Font.Cartoon
+TextLabel_9.Text = "Helping me alot, Use V.G Hub and support him"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 16.000
+TextLabel_9.TextStrokeTransparency = 0.000
+
+TextLabel_10.Parent = ScrollingFrame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.277108431, 0, 0.401405096, 0)
+TextLabel_10.Size = UDim2.new(0, 184, 0, 21)
+TextLabel_10.Font = Enum.Font.Cartoon
+TextLabel_10.Text = "Script R Us"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 25.000
+TextLabel_10.TextStrokeTransparency = 0.000
+
+TextLabel_11.Parent = ScrollingFrame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(0.277108431, 0, 0.431503385, 0)
+TextLabel_11.Size = UDim2.new(0, 184, 0, 21)
+TextLabel_11.Font = Enum.Font.Cartoon
+TextLabel_11.Text = "Supporting me through everything"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 16.000
+TextLabel_11.TextStrokeTransparency = 0.000
+
+TextLabel_12.Parent = ScrollingFrame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(0.279518068, 0, 0.48371464, 0)
+TextLabel_12.Size = UDim2.new(0, 184, 0, 21)
+TextLabel_12.Font = Enum.Font.Cartoon
+TextLabel_12.Text = "Join The Discord"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 25.000
+TextLabel_12.TextStrokeTransparency = 0.000
+
+TextLabel_13.Parent = ScrollingFrame
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(53, 83, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.BorderSizePixel = 0
+TextLabel_13.Position = UDim2.new(0.277108431, 0, 0.516269922, 0)
+TextLabel_13.Size = UDim2.new(0, 184, 0, 21)
+TextLabel_13.Font = Enum.Font.Cartoon
+TextLabel_13.Text = "https://discord.gg/cd29uEnZ"
+TextLabel_13.TextColor3 = Color3.fromRGB(89, 114, 255)
+TextLabel_13.TextSize = 25.000
+TextLabel_13.TextStrokeTransparency = 0.000
+
+TextLabel_14.Parent = ScrollingFrame
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.BorderSizePixel = 0
+TextLabel_14.Position = UDim2.new(0.260240972, 0, 0.358722359, 0)
+TextLabel_14.Size = UDim2.new(0, 184, 0, 18)
+TextLabel_14.Font = Enum.Font.Cartoon
+TextLabel_14.Text = "https://discord.gg/BAKzUJD5dP"
+TextLabel_14.TextColor3 = Color3.fromRGB(89, 114, 255)
+TextLabel_14.TextSize = 16.000
+TextLabel_14.TextStrokeTransparency = 0.000
+
+-- Scripts:
+
+local function BAYWL_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(BAYWL_fake_script)()
